@@ -30,6 +30,8 @@ public class AT噪声透明度 : MonoBehaviour {
 		当前颜色.a = 透明度;
 
 		sr.color = 当前颜色;
+        float time = Random.Range(1, 2);
+        Destroy(gameObject,time);
 	}
 
 	[ContextMenu("以当前透明度作为基准")]
